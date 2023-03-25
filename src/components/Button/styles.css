@@ -1,0 +1,23 @@
+.btn {
+  width: 480px;
+  height: 50px;
+  border: none;
+  font-size: 24px;
+  border-radius: 10px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 0.2s ease-in-out;
+  filter: brightness(0.9);
+}
+
+.btn.primary {
+  background: transparent;
+  border: 1px solid var(--text);
+}
+
+.btn.secondary {
+  background: var(--bgButton);
+}

@@ -1,0 +1,19 @@
+.floatingButton {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bgButton);
+  cursor: pointer;
+}
+
+.floatingButton img {
+  width: 20px;
+  height: auto;
+}
