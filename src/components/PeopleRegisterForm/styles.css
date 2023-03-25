@@ -1,0 +1,73 @@
+.containerRegisterPeople {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+
+.containerRegisterPeople .contentResgisterPeople {
+  width: 80vw;
+  height: 100vh;
+}
+
+.containerRegisterPeople .containerForm {
+  height: 90%;
+}
+
+.containerRegisterPeople .contentForm {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerRegisterPeople .fields {
+  width: 100%;
+  max-width: 480px;
+  align-self: self-start;
+  margin-top: 120px;
+}
+
+.containerRegisterPeople .fields p {
+  color: var(--text);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.containerRegisterPeople .groupField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerRegisterPeople .groupFieldConsultation {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.containerRegisterPeople .groupFieldConsultation .field {
+  margin-top: 0;
+}
+
+.containerRegisterPeople .groupField .field {
+  margin-top: 0;
+}
+
+.containerRegisterPeople .registerField {
+  width: 138px;
+}
+
+.containerRegisterPeople .contentForm img {
+  width: 480px;
+  height: auto;
+}
+
+.containerRegisterPeople .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
