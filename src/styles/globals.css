@@ -1,0 +1,29 @@
+:root {
+  --bg: #2790b0;
+  --bgButton: #0f96f8;
+  --text: #fff;
+  --bgInput: #d9d9d9;
+  --bgSideBar: #353432;
+  --bgTable: #b5b3b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body,
+#root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
