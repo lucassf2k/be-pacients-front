@@ -1,5 +1,7 @@
-function App() {
-  return <h1>Be Pacients</h1>;
-}
+import "./styles/globals.css";
 
-export default App;
+import { Router } from "./Router";
+
+export function App() {
+  return <Router />;
+}
